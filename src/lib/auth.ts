@@ -3,7 +3,7 @@ import { NextRequest } from "next/server";
 export const ADMIN_COOKIE_NAME = "admin_token";
 
 export function getAdminPassword(): string {
-  return process.env.ADMIN_PASSWORD || "degistirilecek-admin-sifresi";
+  return process.env.ADMIN_PASSWORD || "kadir123";
 }
 
 export function getAdminSecretToken(): string {
